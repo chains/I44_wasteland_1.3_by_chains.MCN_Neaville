@@ -7,16 +7,17 @@
 //Gunstore Weapon List - Gun Store Base List
 // Type, Text name, classname, buy cost, sell amount
 weaponsArray = [
-	// Pistols
+	// Submachine Guns
     [1, "M3Greasegun","I44_M3Greasegun",50,25],
 	[1, "Thompson","I44_M1A1Thompson",75,35],
 	[1, "MP40","I44_MP40",75,35],
+	[1, "Sten Mk5","I44_StenMk5",75,35],
     
     // Shotguns & Rifles
-    [2, "DeIsle","I44_DeLisleCarbine",100,35],
     [2, "M1Garand","I44_M1Garand",150,25],
     [2, "M1A1","I44_M1A1Carbine",200,55],
-    [2, "G43ZF4"," I44_G43Zf4",250,25],
+    [2, "G43"," I44_G43",250,25],
+    [2, "K98K", "I44_K98k", 165, 30],
     
     // Sniper rifles
 	[3, "K98k Scoped","I44_K98kZf42",600,220],
@@ -31,7 +32,8 @@ weaponsArray = [
     
     // Anti-tank
     [5, "M1A1Bazooka","I44_M1A1Bazooka",300,175],
-    [5, "Panzerfaust","I44_PzFaust60",500,550]
+    [5, "Panzerfaust","I44_PzFaust60",500,550],
+    [5, "Panzerschreck","I44_RPzB54",800, 400]
 ];
 
 //Gun Store Ammo List
@@ -53,6 +55,7 @@ ammoArray = [
     ["20Rnd Bar","I44_20rd_762x63_Mix_M1918",25],
     ["149mm Panzerfaust","I44_Rocket_149mm_PzF_60",150],
     ["60mm Bazooka","I44_Rocket_60mm_M6A1_M1A1Bazooka",100],
+    ["88mm rocket","I44_Rocket_88mm_RPzBGr4322_RPzB54",100],
     ["k98 Mag","I44_5rd_792x57_Mix_K98",25], 
 	["Lee enfield mag","I44_10rd_77x56R_Ball_LeeEnfield",25], 
 	["Springfield mag","I44_5rd_762x63_Mix_M1903",25] 
@@ -65,6 +68,7 @@ accessoriesArray = [
     //["1 Land Mine","Mine", 75],
 	//["GPS","ItemGPS", 100],
 	//["NV Goggles","NVGoggles",100],
+	["HandGrenade Mk2","I44_HandGrenade_Mk2", 75],
 	["Bayonet","I44_ItemBayonet",50],
 	["Shovel","I44_ItemShovel",50]
 ];
