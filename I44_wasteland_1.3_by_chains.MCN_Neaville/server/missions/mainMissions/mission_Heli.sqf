@@ -33,7 +33,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["MH60S","MV22","UH1Y","Mi17_Civilian","Mi17_medevac_RU","UH60M_EP1","CH_47F_BAF","UH1H_TK_GUE_EP1","Ka60_PMC","BAF_Merlin_HC3_D"] call BIS_fnc_selectRandom;
+_vehicleClass = ["I44_Plane_A_P51D_AAF","I44_Plane_B_SpitfireMk1a_RAF","I44_Plane_G_Ju87_WL","I44_Plane_G_Bf109E4_WL","I44_Plane_B_TyphoonMk1A_RP3_RAF","I44_Plane_G_Ju52_3mg5e_WL","I44_Plane_A_C47A_AAF"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.25,1,0.50,"NONE"] call createMissionVehicle;

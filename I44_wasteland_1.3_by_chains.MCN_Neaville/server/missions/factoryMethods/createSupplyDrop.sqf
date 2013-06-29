@@ -18,8 +18,8 @@ _picture = _this select 2;
 _vehicleName = _this select 3;
 _missionType = _this select 4;
 
-_cargoItem_1 = "RUVehicleBox";
-_cargoItem_2 = "USVehicleBox"; 
+_cargoItem_1 = "I44_WeaponBox_AB";
+_cargoItem_2 = "I44_WeaponBox_A"; 
 _cargoItem_3 = "Barrels";
 _cargoItem_4 = "Land_stand_small_EP1"; 
 _parachute = "ParachuteMediumWest";

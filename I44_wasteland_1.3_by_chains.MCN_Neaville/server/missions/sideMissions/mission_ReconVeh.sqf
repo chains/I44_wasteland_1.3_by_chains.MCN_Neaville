@@ -13,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 //Mission Initialization.
 _result = 0;
 _missionMarkerName = "Recon_Vehicle";
-_missionType = "Recon Vehicle";
+_missionType = "Light Tank";
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else
@@ -33,7 +33,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["BAF_Jackal2_L2A1_w","ArmoredSUV_PMC","BAF_Jackal2_L2A1_D","HMMWV_M998A2_SOV_DES_EP1","UAZ_SPG9_INS","UAZ_AGS30_RU","LandRover_Special_CZ_EP1","HMMWV_M1151_M2_DES_EP1","M113_UN_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["I44_HT_A_M3_Army","I44_HT_A_M3A1_Army","I44_ACar_G_SdKfz222_WH","I44_ACar_G_SdKfz234_1_WH","I44_ACar_G_SdKfz222_WH","I44_ACar_A_M8_Greyhound_Army","I44_HT_G_SdKfz251_22_WH","I44_Tank_G_JaPz38_T_WH","I44_Tank_A_M5A1_Stuart_Army","I44_Tank_G_PzKpfwII_F_WH"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0,1,0,"NONE"] call createMissionVehicle;
@@ -82,7 +82,7 @@ if(_result == 1) then
 } else {
 	//Mission Complete.
     deleteGroup CivGrpS;
-    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The recon vehicle has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The light tank has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
     diag_log format["WASTELAND SERVER - Side Mission Success: %1",_missionType];
 };

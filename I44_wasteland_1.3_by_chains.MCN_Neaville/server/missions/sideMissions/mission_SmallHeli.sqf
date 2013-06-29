@@ -13,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 //Mission Initialization.
 _result = 0;
 _missionMarkerName = "Heli_Marker";
-_missionType = "Immobile Small Helicopter";
+_missionType = "Immobile Light Tank";
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else
@@ -32,7 +32,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["AH6X_EP1","Ka137_PMC","Ka137_MG_PMC","MH6J_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["I44_ACar_G_SdKfz234_1_WH","I44_ACar_G_SdKfz222_WH","I44_ACar_A_M8_Greyhound_Army","I44_HT_G_SdKfz251_22_WH","I44_Tank_G_JaPz38_T_WH","I44_Tank_A_M5A1_Stuart_Army","I44_Tank_G_PzKpfwII_F_WH"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.25,1,0.50,"NONE"] call createMissionVehicle;
@@ -80,7 +80,7 @@ if(_result == 1) then
 } else {
 	//Mission Complete.
     deleteGroup CivGrpM;
-    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The helicopter has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The armored car has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
     diag_log format["WASTELAND SERVER - Side Mission Success: %1",_missionType];
 };

@@ -35,10 +35,10 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
-_vehicle = ["C130J_US_EP1",[(_randomPos select 0) + 50, (_randomPos select 1) + 50,0],0,0,1,"NONE"] call createMissionVehicle;
+_vehicle = ["I44_Plane_A_C47A_AAF",[(_randomPos select 0) + 50, (_randomPos select 1) + 50,0],0,0,1,"NONE"] call createMissionVehicle;
 
-_box = createVehicle ["USLaunchersBox",[(_randomPos select 0), (_randomPos select 1),0],[], 0, "NONE"];
-[_box,"mission_Side_USLaunchers"] call fn_refillbox;
+_box = createVehicle ["I44_WeaponBox_B",[(_randomPos select 0), (_randomPos select 1),0],[], 0, "NONE"];
+//[_box,"mission_Side_USLaunchers"] call fn_refillbox;
 
 _box2 = _nerfBoxes select (random (count _nerfBoxes - 1));
 _safePos = [_randomPos, 2, 10, 1, 0, 60 * (pi / 180), 0] call BIS_fnc_findSafePos;
