@@ -38,10 +38,12 @@ if (serverSpawning == 1) then {
 //    _heliSpawn = [] ExecVM "server\functions\staticHeliSpawning.sqf";
 //    waitUntil{sleep 0.1; scriptDone _heliSpawn};
 
-    _markerClean = [] ExecVM "server\functions\cleanMarkers.sqf";
-    waitUntil{sleep 0.1; scriptDone _markerClean};
     _boxSpawning = [] ExecVM "server\functions\boxSpawning.sqf";
     waitUntil{sleep 0.1; scriptDone _boxSpawning};
+
+    _markerClean = [] ExecVM "server\functions\cleanMarkers.sqf";
+    waitUntil{sleep 0.1; scriptDone _markerClean};
+
 };
 #endif
 //Execute Server Missions.
