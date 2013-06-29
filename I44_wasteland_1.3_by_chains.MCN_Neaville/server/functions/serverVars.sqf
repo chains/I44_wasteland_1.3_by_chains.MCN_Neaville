@@ -140,7 +140,7 @@ objectList = ["Land_Barrel_water",
                 "Land_GuardShed",
                 "Land_tent_east",
 				"Land_ConcreteBlock",
-				
+
 				//I44 and other adds
 				"I44_Bag_AMusette",
 				"I44_Bag_AHE",
@@ -160,16 +160,9 @@ objectList = ["Land_Barrel_water",
                                          
 //Object List - Random Spawns.
 staticWeaponsList = [
-					"I44_WeaponBox_AB",
-					"I44_WeaponBox_A",
-					"I44_WeaponBox_B",
-					"I44_GunMG_G_MG42_Tripod_WH",
 					"I44_GunMG_G_MG42_Tripod_WH",
                     "I44_GunMG_A_M1919A4_TripodM2_Army",
-                    "I44_GunMG_A_M1919A4_TripodM2_Army",
                     "I44_GunMG_B_Vickers_Army",
-                    "I44_GunMG_B_Vickers_Army",
-					"I44_GunMG_A_M2HB_TripodAA_Army"
 					"I44_GunMG_A_M2HB_TripodAA_Army"
 					];
 

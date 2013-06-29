@@ -34,10 +34,14 @@ if (serverSpawning == 1) then {
 	waitUntil{sleep 0.1; scriptDone _objSpawn};
     _gunSpawn = [] ExecVM "server\functions\staticGunSpawning.sqf";
 	waitUntil{sleep 0.1; scriptDone _gunSpawn};
+	
 //    _heliSpawn = [] ExecVM "server\functions\staticHeliSpawning.sqf";
 //    waitUntil{sleep 0.1; scriptDone _heliSpawn};
+
     _markerClean = [] ExecVM "server\functions\cleanMarkers.sqf";
     waitUntil{sleep 0.1; scriptDone _markerClean};
+    _boxSpawning = [] ExecVM "server\functions\boxSpawning.sqf";
+    waitUntil{sleep 0.1; scriptDone _boxSpawning};
 };
 #endif
 //Execute Server Missions.
