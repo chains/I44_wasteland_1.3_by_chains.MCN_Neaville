@@ -159,10 +159,19 @@ objectList = ["Land_Barrel_water",
 				];
                                          
 //Object List - Random Spawns.
-staticWeaponsList = ["I44_GunMG_G_MG42_Tripod_WH",
-                     "I44_GunMG_A_M1919A4_TripodM2_Army",
-                     "I44_GunMG_B_Vickers_Army",
-					 "I44_GunMG_A_M2HB_TripodAA_Army"];
+staticWeaponsList = [
+					"I44_WeaponBox_AB",
+					"I44_WeaponBox_A",
+					"I44_WeaponBox_B",
+					"I44_GunMG_G_MG42_Tripod_WH",
+					"I44_GunMG_G_MG42_Tripod_WH",
+                    "I44_GunMG_A_M1919A4_TripodM2_Army",
+                    "I44_GunMG_A_M1919A4_TripodM2_Army",
+                    "I44_GunMG_B_Vickers_Army",
+                    "I44_GunMG_B_Vickers_Army",
+					"I44_GunMG_A_M2HB_TripodAA_Army"
+					"I44_GunMG_A_M2HB_TripodAA_Army"
+					];
 
 //Object List - Random Helis.
 staticHeliList = [];
