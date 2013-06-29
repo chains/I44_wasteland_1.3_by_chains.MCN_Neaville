@@ -4,7 +4,8 @@
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
-waitUntil{objectSpawnComplete};
+//waitUntil{objectSpawnComplete};
+f(!X_Server) exitWith {};
 
 private ["_counter","_pos","_markerName","_marker","_hint","_newpos","_countActual","_boxes"];
 
@@ -34,4 +35,4 @@ while {_counter < 770} do
 };
 
 diag_log format["WASTELAND SERVER - %1 Ammo Caches Spawned",_countActual];
-ammoCrateSpawnComplete = true;
+//ammoCrateSpawnComplete = true;
