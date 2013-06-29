@@ -26,28 +26,31 @@ _player selectWeapon "revolver_gold_EP1";
 if(str(playerSide) in ["WEST"]) then
 {
     removeAllWeapons _player;
-    _player addMagazine "7Rnd_45ACP_1911";
-    _player addMagazine "7Rnd_45ACP_1911";
-	_player addWeapon "Colt1911";
-	_player selectWeapon "Colt1911";
+    _player addMagazine "I44_7rd_1143x23_Ball_M1911";
+    _player addMagazine "I44_7rd_1143x23_Ball_M1911";
+    _player addMagazine "I44_7rd_1143x23_Ball_M1911";
+	_player addWeapon "I44_M1911A1";
+	_player selectWeapon "I44_M1911A1";
 };
 
 if(str(playerSide) in ["EAST"]) then
 {
     removeAllWeapons _player;
-    _player addMagazine "8Rnd_9x18_Makarov";
-    _player addMagazine "8Rnd_9x18_Makarov";
-    _player addMagazine "8Rnd_9x18_Makarov";
-	_player addWeapon "Makarov";
-	_player selectWeapon "Makarov";
+    _player addMagazine "I44_8rd_9x19_Ball_P08";
+    _player addMagazine "I44_8rd_9x19_Ball_P08";
+    _player addMagazine "I44_8rd_9x19_Ball_P08";
+	_player addWeapon "I44_P08";
+	_player selectWeapon "I44_P08";
 };
 
 if(str(playerSide) in ["GUER"]) then
 {
     removeAllWeapons _player;
-    _player addMagazine "17Rnd_9x19_glock17";
-	_player addWeapon "glock17_EP1";
-	_player selectWeapon "glock17_EP1";
+    _player addMagazine "I44_8rd_9x19_Ball_P38";
+    _player addMagazine "I44_8rd_9x19_Ball_P38";
+    _player addMagazine "I44_8rd_9x19_Ball_P38";
+	_player addWeapon "I44_P38";
+	_player selectWeapon "I44_P38";
 };
 
 _player addrating 1000000;
