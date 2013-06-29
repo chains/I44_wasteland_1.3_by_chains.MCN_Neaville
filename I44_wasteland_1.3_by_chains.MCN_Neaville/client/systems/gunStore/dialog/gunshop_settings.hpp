@@ -210,7 +210,7 @@ class gunshopd {
 		{
 			idc = -1;
 			onButtonClick = "[1] execVM 'client\systems\gunStore\populateGunStore.sqf'";
-			text = "Pistols";
+			text = "Submachine Guns";
 
 			x = 0.218 * safezoneW + safezoneX;
 			y = 0.260 * safezoneH + safezoneY;
@@ -258,7 +258,7 @@ class gunshopd {
 		{
 			idc = -1;
 			onButtonClick = "[5] execVM 'client\systems\gunStore\populateGunStore.sqf'";
-			text = "RPGs";
+			text = "Anti Tank";
 
 			x = 0.218 * safezoneW + safezoneX;
 			y = 0.400 * safezoneH + safezoneY;
