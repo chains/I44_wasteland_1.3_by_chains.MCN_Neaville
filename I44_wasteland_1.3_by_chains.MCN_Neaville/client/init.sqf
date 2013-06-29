@@ -73,5 +73,5 @@ if (isNil "FZF_IC_INIT") then   {
 };
 sleep 1;
 true spawn playerSpawn;
-[] execVM "client\functions\antiCheatClient.sqf";
+//[] execVM "client\functions\antiCheatClient.sqf";
 [] spawn FZF_IC_INIT;
