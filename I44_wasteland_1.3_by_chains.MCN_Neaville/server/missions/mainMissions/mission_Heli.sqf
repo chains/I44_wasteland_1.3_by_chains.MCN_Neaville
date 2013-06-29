@@ -13,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 //Mission Initialization.
 _result = 0;
 _missionMarkerName = "Heli_Marker";
-_missionType = "Immobile Helicopter";
+_missionType = "Immobile Fighter";
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else
@@ -82,7 +82,7 @@ if(_result == 1) then
 } else {
 	//Mission Complete.
     deleteGroup CivGrpM;
-    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The helicopter has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>The fighter has been captured.</t>", _missionType, _picture, _vehicleName, successMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
     diag_log format["WASTELAND SERVER - Main Mission Success: %1",_missionType];
 };

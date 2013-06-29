@@ -13,7 +13,7 @@ if(!isServer) exitwith {};
 private [];
 
 _result = 0;
-_missionType = "C130 Supply Drop";
+_missionType = "C47 Supply Drop";
 _missionMarkerName = "SupplyDrop_Marker";
 #ifdef __A2NET__
 _startTime = floor(netTime);
@@ -35,7 +35,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
 //Start Mission
-_vehicleClass = "C130J_US_EP1";
+_vehicleClass = "I44_Plane_A_C47A_AAF";
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage, State
 _vehicle = [_vehicleClass,getMarkerPos "plane2",1,1,0,"FLY"] call createMissionVehicle;

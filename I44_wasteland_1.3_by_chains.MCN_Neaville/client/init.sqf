@@ -48,8 +48,8 @@ player addEventHandler ["Killed", {[_this] call onKilled;}];
 [] execVM "client\clientEvents\onMouseWheel.sqf";
 
 //Setup Key Handler
-waituntil {!(IsNull (findDisplay 46))};
-(findDisplay 46) displaySetEventHandler ["KeyDown", "_this call onKeyPress"];
+//waituntil {!(IsNull (findDisplay 46))};
+//(findDisplay 46) displaySetEventHandler ["KeyDown", "_this call onKeyPress"];
 
 "currentDate" addPublicVariableEventHandler {[] call timeSync};
 "clientMissionMarkers" addPublicVariableEventHandler {[] call updateMissionsMarkers};
