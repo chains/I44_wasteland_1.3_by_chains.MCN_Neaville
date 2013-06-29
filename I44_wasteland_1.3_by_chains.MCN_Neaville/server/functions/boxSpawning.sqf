@@ -5,7 +5,7 @@
 //	@file Args:
 
 //waitUntil{objectSpawnComplete};
-f(!X_Server) exitWith {};
+if(!X_Server) exitWith {};
 
 private ["_counter","_pos","_markerName","_marker","_hint","_newpos","_countActual","_boxes"];
 
