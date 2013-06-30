@@ -166,7 +166,7 @@ class Mission
 					position[]={13680.94,45.985439,2901.5754};
 					id=12;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1079,7 +1079,7 @@ class Mission
 					special="NONE";
 					id=0;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1136,7 +1136,7 @@ class Mission
 					position[]={13667.566,45.27309,2901.8513};
 					id=4;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1155,7 +1155,7 @@ class Mission
 					position[]={13674.426,45.667385,2901.3337};
 					id=8;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1505,7 +1505,7 @@ class Mission
 					position[]={13681.051,45.21991,2876.1008};
 					id=105;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1658,7 +1658,7 @@ class Mission
 					special="NONE";
 					id=93;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1715,7 +1715,7 @@ class Mission
 					position[]={13667.677,44.644756,2876.3767};
 					id=97;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1734,7 +1734,7 @@ class Mission
 					position[]={13674.536,44.951599,2875.8591};
 					id=101;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Engr_M1Mine";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
