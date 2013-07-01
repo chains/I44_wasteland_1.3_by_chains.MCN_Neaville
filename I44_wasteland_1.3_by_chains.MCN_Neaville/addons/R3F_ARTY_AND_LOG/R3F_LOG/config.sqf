@@ -74,6 +74,7 @@ R3F_LOG_CFG_objets_remorquables = [
 	"M119",
 	"D30_base",
 	"ZU23_base",
+	
     "I44_Truck_A_GMC_CCKW_Open2_Army",
 	"I44_Truck_A_GMC_CCKW_Army",
 	"I44_Car_G_Kfz1_Camo_WH",
@@ -86,6 +87,19 @@ R3F_LOG_CFG_objets_remorquables = [
 	"I44_Plane_B_SpitfireMk1a_RAF",
 	"I44_Plane_G_Ju87_WL",
 	"Old_bike_TK_CIV_EP1",
+	"I44_Plane_G_Bf109E4_WL",
+	"I44_Plane_B_TyphoonMk1A_RP3_RAF",
+	"I44_Plane_G_Ju52_3mg5e_WL",
+	"I44_Plane_A_C47A_AAF",
+	"I44_Truck_A_GMC_CCKW_Fuel_Army",
+	"I44_Truck_A_GMC_CCKW_Repair_Army",
+	"I44_Truck_A_GMC_CCKW_Ammo_Army",
+	"I44_motorcycle_G_BMWR75_S",
+	"I44_motorcycle_G_BMWR75",
+	"I44_GunAA_G_FlaK38_WL",
+	"I44_GunAT_G_PaK40_Pintle_WH",
+	"I44_Gun_G_NbW41_WH",
+	"I44_GunAT_A_M3_Army",
 	
 	"Land_fortified_nest_big",
 	"Land_ConcreteRamp",
@@ -249,6 +263,26 @@ R3F_LOG_CFG_transporteurs = [
     ["I44_Car_A_WillysMB_Army", 15],
     ["I44_Car_G_Kfz1_CamoOpen_WH", 15],
 	["I44_Car_B_WillysAB_VGO_Army", 15],
+	
+	["I44_Plane_G_Bf109E4_WL", 5],
+	["I44_Plane_B_TyphoonMk1A_RP3_RAF", 5],
+	["I44_Plane_G_Ju52_3mg5e_WL", 70],
+	["I44_Plane_A_C47A_AAF", 70],
+	["I44_Truck_A_GMC_CCKW_Fuel_Army", 50],
+	["I44_Truck_A_GMC_CCKW_Repair_Army", 50],
+	["I44_Truck_A_GMC_CCKW_Ammo_Army", 50],
+	["I44_motorcycle_G_BMWR75_S", 5],
+	["I44_motorcycle_G_BMWR75", 5],
+	["I44_Car_A_WillysMB_M1919_Army", 5],
+	["I44_Car_G_Kfz1_Camo_WH", 5],
+	
+	["I44_HT_A_M3_Army", 5],
+	["I44_HT_A_M3A1_Army" 5],
+	["I44_ACar_G_SdKfz222_WH", 5],
+	["I44_ACar_G_SdKfz234_1_WH", 5],
+	["I44_ACar_A_M8_Greyhound_Army", 5],
+	["I44_HT_G_SdKfz251_22_WH", 5],
+	
 	["I44_Car_B_WillysAB_Army", 15]
 ];
 

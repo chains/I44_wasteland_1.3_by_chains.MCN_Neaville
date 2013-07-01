@@ -62,7 +62,6 @@ staticHeliWrecks = [];
 civilianVehicles = ["I44_Car_B_WillysAB_Army",
 					"I44_Car_G_Kfz1_CamoOpen_WH",
 					"I44_HT_G_SdKfz2_Camo_WH",
-					"tractorOld",
 					"I44_motorcycle_G_BMWR75",
 					"I44_HT_G_SdKfz2_Gray_WH"];
 
@@ -70,6 +69,7 @@ civilianVehicles = ["I44_Car_B_WillysAB_Army",
 militaryVehicles = ["I44_Truck_A_GMC_CCKW_Open2_Army",
 					"I44_Truck_A_GMC_CCKW_Army",
 					"I44_Car_G_Kfz1_Camo_WH",
+					"tractorOld",
 					"I44_Truck_G_Kfz305_Camo_WH",
 					"I44_Car_A_WillysMB_Army",
 					"I44_Car_G_Kfz1_CamoOpen_WH",
@@ -79,6 +79,9 @@ militaryVehicles = ["I44_Truck_A_GMC_CCKW_Open2_Army",
 					"I44_Car_B_WillysAB_Army",
 					"I44_Car_A_WillysMB_Medic_Army",
 					"I44_Car_B_WillysAB_Medic_Army",
+					"I44_Truck_A_GMC_CCKW_Fuel_Army",
+					"I44_Truck_A_GMC_CCKW_Repair_Army",
+					"I44_Truck_A_GMC_CCKW_Ammo_Army",
 					"I44_Car_G_Kfz1_GrayOpen_Medic_WH"
 					];
 

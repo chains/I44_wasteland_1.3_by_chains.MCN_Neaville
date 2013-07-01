@@ -11,7 +11,7 @@ private ["_counter","_pos","_markerName","_marker","_hint","_newpos","_countActu
 
 _counter = 0;
 _countActual = 0;
-_boxes = ["I44_WeaponBox_B","I44_WeaponBox_G_H","I44_WeaponBox_AB","I44_WeaponBox_A","I44_WeaponBox_FJ","I44_WeaponBox_G", "I44_AmmoBox_G", "I44_AmmoBox_FJ"];
+_boxes = ["I44_WeaponBox_B","I44_WeaponBox_G_H","I44_WeaponBox_AB","I44_WeaponBox_A","I44_WeaponBox_FJ","I44_WeaponBox_G","I44_AmmoBox_G","I44_AmmoBox_FJ"];
 
 diag_log format["Weapon Caches Spawning"];
 

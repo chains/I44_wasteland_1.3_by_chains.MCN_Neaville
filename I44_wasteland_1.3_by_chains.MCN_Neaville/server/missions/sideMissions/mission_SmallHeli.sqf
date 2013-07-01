@@ -13,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 //Mission Initialization.
 _result = 0;
 _missionMarkerName = "Heli_Marker";
-_missionType = "Immobile Light Tank";
+_missionType = "Immobile Light Armored Vehicle";
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else
