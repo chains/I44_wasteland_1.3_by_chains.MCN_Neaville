@@ -79,9 +79,9 @@ militaryVehicles = ["I44_Truck_A_GMC_CCKW_Open2_Army",
 					"I44_Car_B_WillysAB_Army",
 					"I44_Car_A_WillysMB_Medic_Army",
 					"I44_Car_B_WillysAB_Medic_Army",
-					"I44_Truck_A_GMC_CCKW_Fuel_Army",
-					"I44_Truck_A_GMC_CCKW_Repair_Army",
-					"I44_Truck_A_GMC_CCKW_Ammo_Army",
+					//"I44_Truck_A_GMC_CCKW_Fuel_Army",
+					//"I44_Truck_A_GMC_CCKW_Repair_Army",
+					//"I44_Truck_A_GMC_CCKW_Ammo_Army",
 					"I44_Car_G_Kfz1_GrayOpen_Medic_WH"
 					];
 
