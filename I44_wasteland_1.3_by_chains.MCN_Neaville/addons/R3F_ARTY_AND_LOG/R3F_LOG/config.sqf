@@ -277,7 +277,7 @@ R3F_LOG_CFG_transporteurs = [
 	["I44_Car_G_Kfz1_Camo_WH", 5],
 	
 	["I44_HT_A_M3_Army", 5],
-	["I44_HT_A_M3A1_Army" 5],
+	["I44_HT_A_M3A1_Army", 5],
 	["I44_ACar_G_SdKfz222_WH", 5],
 	["I44_ACar_G_SdKfz234_1_WH", 5],
 	["I44_ACar_A_M8_Greyhound_Army", 5],
