@@ -39,7 +39,7 @@ _vehicleClass = [
 				//"I44_Plane_G_Ju87_WL",
 				"I44_Plane_G_Bf109E4_WL",
 				"I44_Plane_B_TyphoonMk1A_RP3_RAF",
-				"I44_Plane_G_Ju52_3mg5e_WL",
+				//"I44_Plane_G_Ju52_3mg5e_WL",
 				"I44_Plane_A_C47A_AAF"
 				] call BIS_fnc_selectRandom;
 
