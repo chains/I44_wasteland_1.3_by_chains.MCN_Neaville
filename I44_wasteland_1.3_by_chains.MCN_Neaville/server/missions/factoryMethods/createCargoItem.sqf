@@ -21,5 +21,5 @@ if(_itemClass == "Land_stand_small_EP1") then
 	_cargo setVariable["food",20,true];
 };
 
-_effectSmoke = "smokeShellGreen" createVehicle _dropPosition;
+_effectSmoke = "smokeShellPurple" createVehicle _dropPosition;
 _effectSmoke attachto [_cargo, [0,0,0]];
