@@ -35,7 +35,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 _veh = ["HeavyWeapons", "HeavyWeapons2", "HeavyWeapons3"] call BIS_fnc_selectRandom;
 _base = [_veh, 0, _randomPos] execVM "server\functions\createOutpost.sqf";
 
-_vehicleName = "Enemy Outpost";
+_vehicleName = "Heavy Weapons Depot";
 _hint = parseText format ["<t align='center' color='%3' shadow='2' size='1.75'>Main Objective</t><br/><t align='center' color='%3'>------------------------------</t><br/><t align='center' color='%4' size='1.25'>%1</t><br/><t align='center' color='%4'>A<t color='%3'> %2</t> has been spotted near the marker!</t>", _missionType, _vehicleName, mainMissionColor, subTextColor];
 [nil,nil,rHINT,_hint] call RE;
 
@@ -88,7 +88,7 @@ if(_result == 1) then
 } else {
 	//Mission Complete.
     deleteGroup CivGrpL;
-    _hint = parseText format ["<t align='center' color='%3' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%3'>------------------------------</t><br/><t align='center' color='%4' size='1.25'>%1</t><br/><t align='center' color='%4'>The outpost and weapons have been captured.</t>", _missionType, _vehicleName, successMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%3' shadow='2' size='1.75'>Objective Complete</t><br/><t align='center' color='%3'>------------------------------</t><br/><t align='center' color='%4' size='1.25'>%1</t><br/><t align='center' color='%4'>The heavy weapons have been captured.</t>", _missionType, _vehicleName, successMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
     diag_log format["WASTELAND SERVER - Main Mission Success: %1",_missionType];
 };
