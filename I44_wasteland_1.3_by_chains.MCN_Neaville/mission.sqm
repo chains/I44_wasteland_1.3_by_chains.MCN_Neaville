@@ -71,7 +71,7 @@ class Mission
 					position[]={13660.785,44.491783,2882.2727};
 					id=3;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_M43_M1Garand";
+					vehicle="I44_Man_B_Army_AB_CO_WebleyMk6";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -90,7 +90,7 @@ class Mission
 					position[]={13660.432,44.660336,2888.927};
 					id=2;
 					side="WEST";
-					vehicle="I44_Man_A_Army_AB_Sniper_M1903A4";
+					vehicle="I44_Man_A_Army_CO_M1911A1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -375,7 +375,7 @@ class Mission
 					position[]={13702.654,45.717113,2879.969};
 					id=23;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -489,7 +489,7 @@ class Mission
 					position[]={13718.009,45.851921,2887.551};
 					id=29;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -584,7 +584,7 @@ class Mission
 					position[]={13726.538,45.673218,2887.55};
 					id=34;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -660,7 +660,7 @@ class Mission
 					position[]={13734.5,45.42075,2886.7922};
 					id=38;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1848,7 +1848,7 @@ class Mission
 					position[]={13702.107,44.186588,2853.6238};
 					id=116;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_CO_General_P08";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1867,7 +1867,7 @@ class Mission
 					position[]={13711.239,45.356903,2874.2859};
 					id=117;
 					side="EAST";
-					vehicle="I44_Man_G_SS_ATCrew_G43";
+					vehicle="I44_Man_G_WH_CO_P08";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1962,7 +1962,7 @@ class Mission
 					position[]={13718.442,44.504704,2861.2058};
 					id=122;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -2057,7 +2057,7 @@ class Mission
 					position[]={13726.972,44.240982,2861.2048};
 					id=127;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -2133,7 +2133,7 @@ class Mission
 					position[]={13734.934,43.86134,2860.447};
 					id=131;
 					side="EAST";
-					vehicle="I44_Man_G_SS_NCO_MP43";
+					vehicle="I44_Man_G_WH_NCO_MP43";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
