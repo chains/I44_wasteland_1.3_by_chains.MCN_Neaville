@@ -82,6 +82,8 @@ militaryVehicles = ["I44_Truck_A_GMC_CCKW_Open2_Army",
 					//"I44_Truck_A_GMC_CCKW_Fuel_Army",
 					//"I44_Truck_A_GMC_CCKW_Repair_Army",
 					//"I44_Truck_A_GMC_CCKW_Ammo_Army",
+					"I44_Truck_G_Kfz305_Open_WH",
+					"I44_Truck_G_Kfz305_Gray_WH",
 					"I44_Car_G_Kfz1_GrayOpen_Medic_WH"
 					];
 

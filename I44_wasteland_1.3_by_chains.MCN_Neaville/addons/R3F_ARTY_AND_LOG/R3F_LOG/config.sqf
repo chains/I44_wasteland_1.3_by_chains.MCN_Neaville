@@ -101,6 +101,9 @@ R3F_LOG_CFG_objets_remorquables = [
 	"I44_Gun_G_NbW41_WH",
 	"I44_GunAT_A_M3_Army",
 	
+	"I44_Truck_G_Kfz305_Open_WH",
+	"I44_Truck_G_Kfz305_Gray_WH",
+	
 	"Land_fortified_nest_big",
 	"Land_ConcreteRamp",
 	"RampConcrete",
@@ -282,6 +285,10 @@ R3F_LOG_CFG_transporteurs = [
 	["I44_ACar_G_SdKfz234_1_WH", 5],
 	["I44_ACar_A_M8_Greyhound_Army", 5],
 	["I44_HT_G_SdKfz251_22_WH", 5],
+	
+	["I44_Truck_G_Kfz305_Open_WH", 35],
+	["I44_Truck_G_Kfz305_Gray_WH", 35],
+	["I44_HT_G_SdKfz251_1D_WH", 15],
 	
 	["I44_Car_B_WillysAB_Army", 15]
 ];

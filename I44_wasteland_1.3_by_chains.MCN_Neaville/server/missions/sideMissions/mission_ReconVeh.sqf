@@ -33,7 +33,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["I44_HT_A_M3_Army","I44_HT_A_M3A1_Army","I44_ACar_G_SdKfz222_WH","I44_ACar_G_SdKfz234_1_WH","I44_ACar_G_SdKfz222_WH","I44_ACar_A_M8_Greyhound_Army","I44_HT_G_SdKfz251_22_WH","I44_Tank_G_JaPz38_T_WH","I44_Tank_A_M5A1_Stuart_Army","I44_Tank_G_PzKpfwII_F_WH"] call BIS_fnc_selectRandom;
+_vehicleClass = ["I44_HT_A_M3_Army","I44_HT_A_M3A1_Army","I44_ACar_G_SdKfz222_WH","I44_ACar_G_SdKfz234_1_WH","I44_ACar_G_SdKfz222_WH","I44_ACar_A_M8_Greyhound_Army","I44_HT_G_SdKfz251_22_WH","I44_Tank_G_JaPz38_T_WH","I44_Tank_A_M5A1_Stuart_Army","I44_HT_G_SdKfz251_1D_WH"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0,1,0,"NONE"] call createMissionVehicle;
