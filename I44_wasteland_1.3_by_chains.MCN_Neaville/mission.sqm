@@ -55,7 +55,7 @@ class Mission
 		month=7;
 		day=12;
 		hour=12;
-		minute=20;
+		minute=0;
 	};
 	class Groups
 	{
