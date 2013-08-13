@@ -145,6 +145,7 @@ objectList = ["Land_Barrel_water",
                 "Land_GuardShed",
                 "Land_tent_east",
 				"Land_ConcreteBlock",
+				"SearchLight",
 
 				//I44 and other adds
 				"I44_Bag_AMusette",

@@ -108,6 +108,7 @@ R3F_LOG_CFG_objets_remorquables = [
 	"Land_ConcreteRamp",
 	"RampConcrete",
 	"Land_ConcreteBlock",
+	"SearchLight",
 	"Land_Fort_Watchtower"
 ];
 
@@ -462,6 +463,7 @@ R3F_LOG_CFG_objets_transportables =  [
 	["Ka137_Base_PMC", 15],
 	["BAF_L2A1_ACOG_base", 4],
 	["GMG_TriPod", 4],
+	["SearchLight", 4],
 	["Land_tires_EP1", 1]
 ];
 
@@ -609,6 +611,7 @@ R3F_LOG_CFG_objets_deplacables = [
 	"Wall_L_2m5_EP1",
 	"ATV_Base_EP1",
 	"Motorcycle",
+	"SearchLight",
 	"Land_tires_EP1"
 ];
 
