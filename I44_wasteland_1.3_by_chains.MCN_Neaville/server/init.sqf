@@ -19,6 +19,7 @@ _serverCompiledScripts = [] execVM "server\functions\serverCompile.sqf";
 [] execVM "server\functions\relations.sqf";
 [] execVM "server\functions\serverTimeSync.sqf";
 //[] execVM "server\functions\antiCheatServer.sqf";
+[] execVM "server\functions\skipTime.sqf";
 waitUntil{scriptDone _serverCompiledScripts};
 
 diag_log format["WASTELAND SERVER - Server Complie Finished"];
